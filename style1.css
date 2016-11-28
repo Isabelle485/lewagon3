@@ -1,0 +1,27 @@
+/*** Tutoriel CSS : page des couleurs ***/
+ 
+/* police de la page */
+body {
+	font: 16px "Comic Sans MS", cursive;
+	background: url("ligne-bleue.png");
+}
+ 
+/* paragraphes */
+p:before {
+	color: blue;
+	content: url("punaise-jaune.png");
+}
+#premier {
+	font-style: italic;
+}
+ 
+/* lettres initiales */
+strong {
+  color: red;
+  background-color: #ddf;
+  font: 200% serif;
+  }
+ 
+.carotte {color: red;}
+.epinard {color: green;}
+

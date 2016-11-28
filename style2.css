@@ -1,0 +1,12 @@
+/* paragraphes numérotés */
+h3.numerote {counter-reset: mynum;}
+ 
+p.numerote:before {
+  content: counter(mynum) " : ";
+  counter-increment: mynum;
+  font-weight: bold;}
+
+  ol.h3 {
+  	list-style: lower-roman;
+ 
+  }
